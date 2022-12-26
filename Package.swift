@@ -26,22 +26,22 @@ let package = Package(
             dependencies: []),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.2.2/AuthMe.xcframework.zip",
-            checksum: "f30fcad3240793f6c6c809f0fc24e578c0daeaa804fae92335cda434ead0a068"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.2.4/AuthMe.xcframework.zip",
+            checksum: "a5464e88f9eaa7e4e2adb7a14bb39776fb3655c5f4bd3258df86a50d37c0485a"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.2.2/AuthMeUI.xcframework.zip",
-            checksum: "31ff162be6496bca6664c442047cabb2d2907a4207dc9f315c24c567332aa356"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.2.4/AuthMeUI.xcframework.zip",
+            checksum: "341ea0df999ab438b3518ab510df61912d68e285116bc1541bf4b73778eec94d"
         ),
         .binaryTarget(
             name: "onnxruntime",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.2.2/onnxruntime.xcframework.zip",
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.2.4/onnxruntime.xcframework.zip",
             checksum: "c3ec0a200062bf8e388a94b5200561812731425580ac83529e218016a9e1af5a"
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.2.2/OpenSSL.xcframework.zip",
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.2.4/OpenSSL.xcframework.zip",
             checksum: "cf1d5849465b111c8db4e1c432b096e8051c3cf018b673c9a3422715fa8abb71"
         ),
     ]
