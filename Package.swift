@@ -12,7 +12,7 @@ let package = Package(
                 "AuthMeSPM",
                 "AuthMe",
                 "AuthMeUI",
-                "onnxruntime",
+                "Algo",
                 "OpenSSL"
             ]),
     ],
@@ -26,22 +26,22 @@ let package = Package(
             dependencies: []),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.2.4/AuthMe.xcframework.zip",
-            checksum: "a5464e88f9eaa7e4e2adb7a14bb39776fb3655c5f4bd3258df86a50d37c0485a"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.4.6/AuthMe.xcframework.zip",
+            checksum: "c72c87df70242825b78383c0bd366b8b19febf57371b9c3d64b07520d7ed1b98"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.2.4/AuthMeUI.xcframework.zip",
-            checksum: "341ea0df999ab438b3518ab510df61912d68e285116bc1541bf4b73778eec94d"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.4.6/AuthMeUI.xcframework.zip",
+            checksum: "ff95c28e9e893568efb3cba6d6cfef11df961c5633b93e131416496e8057438f"
         ),
         .binaryTarget(
-            name: "onnxruntime",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.2.4/onnxruntime.xcframework.zip",
-            checksum: "c3ec0a200062bf8e388a94b5200561812731425580ac83529e218016a9e1af5a"
+            name: "Algo",
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.4.6/Algo.xcframework.zip",
+            checksum: "13bd74570f18713f2434e14414a260c2a55d559c48962f206abc395d68bf4955"
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.2.4/OpenSSL.xcframework.zip",
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.4.6/OpenSSL.xcframework.zip",
             checksum: "cf1d5849465b111c8db4e1c432b096e8051c3cf018b673c9a3422715fa8abb71"
         ),
     ]
