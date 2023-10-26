@@ -27,12 +27,12 @@ let package = Package(
         .binaryTarget(
             name: "AuthMe",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.4.6/AuthMe.xcframework.zip",
-            checksum: "c72c87df70242825b78383c0bd366b8b19febf57371b9c3d64b07520d7ed1b98"
+            checksum: "598921200b0990f8a39403af3aa38070435932a184a80bf19750967a1e1028a7"
         ),
         .binaryTarget(
             name: "AuthMeUI",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.4.6/AuthMeUI.xcframework.zip",
-            checksum: "ff95c28e9e893568efb3cba6d6cfef11df961c5633b93e131416496e8057438f"
+            checksum: "d2d3e66a90aa706db4a6f7a2c76c6415fd71403543728165b4b06dca764f3da7"
         ),
         .binaryTarget(
             name: "Algo",
