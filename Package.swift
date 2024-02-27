@@ -37,7 +37,7 @@ let package = Package(
         .binaryTarget(
             name: "Algo",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.6.1-rc7/Algo.xcframework.zip",
-            checksum: "df1e97a2011379ab8e99da7dff33b49300c542155c2799c4a9363f54d9c014fa"
+            checksum: "40fa4dc531af3d259f292d1c5d5d6835c691231e40bc2e5df9cb14077ec75cd5"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
