@@ -47,7 +47,7 @@ let package = Package(
         .binaryTarget(
             name: "OpenSSL",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.6.1-rc7/OpenSSL.xcframework.zip",
-            checksum: "5e706b55e0a6a9ee1475c51259972545a822d45f277c8db0fca3ce710f98dc36"
+            checksum: "a098d3f8c0482eba7053e01d28fbe93939bcf1aa5bbbb6f198ec51f8e377323f"
         ),
     ]
 )
