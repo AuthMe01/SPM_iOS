@@ -18,7 +18,7 @@ let package = Package(
             ]),
     ],
     dependencies: [
-        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.3.3")
+        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.4.0")
     ],
     targets: [
         .target(
@@ -26,28 +26,28 @@ let package = Package(
             dependencies: [.productItem(name: "Lottie", package: "lottie-spm")]),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.6.1-rc7/AuthMe.xcframework.zip",
-            checksum: "64b7235575eb80ef1b34c36411881592d77e6231088bc59a3f021c87b7c668e8"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.7.0-rc0/AuthMe.xcframework.zip",
+            checksum: "1a2eb31d7160d182bb7a049bdc651075ce764bc7ae08a87975e4fcfeaba50a14"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.6.1-rc7/AuthMeUI.xcframework.zip",
-            checksum: "1ce2f517c212a296c6ea4c8272bdb6235ae425519e74dfa3ed2e8093e7ab0506"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.7.0-rc0/AuthMeUI.xcframework.zip",
+            checksum: "48a3b4c9f6e345f47a94091c14d5bcb7c37ff21f69e025062397414d124c7bcf"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.6.1-rc7/Algo.xcframework.zip",
-            checksum: "8ba4e7f6105ab1a9f4739a8ef77e5ebb7ea03201cb2dcb83d94f03fca0e2b6fb"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.7.0-rc0/Algo.xcframework.zip",
+            checksum: "d63ee46f61bf4b7766de5fd1ca060a1fd04ea000e95c4ca00c613d914f1c4d4c"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.6.1-rc7/AuthmeNFCKit.xcframework.zip",
-            checksum: "b3d32274065999ef7f5d62731df8bf4b4268cd30aa9a677a7fc3ffa4b89f30cd"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.7.0-rc0/AuthmeNFCKit.xcframework.zip",
+            checksum: "4ab9f315adbdfed08d373d237c2e848fc99b568430b40ea4d2820316a0ca4150"
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.6.1-rc7/OpenSSL.xcframework.zip",
-            checksum: "a098d3f8c0482eba7053e01d28fbe93939bcf1aa5bbbb6f198ec51f8e377323f"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/2.7.0-rc0/OpenSSL.xcframework.zip",
+            checksum: "e5107abc8a30ab7f1abe8c3e122c851177d8c013a86005a2bbc1e122da4cd55d"
         ),
     ]
 )
