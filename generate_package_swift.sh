@@ -28,7 +28,7 @@ let package = Package(
             ]),
     ],
     dependencies: [
-        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.3.3")
+        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.4.0")
     ],
     targets: [
         .target(
