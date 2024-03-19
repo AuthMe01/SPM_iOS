@@ -1,11 +1,14 @@
 #!/bin/bash
 
 version="$1"
-checksum_core="$2"
-checksum_ui="$3"
-checksum_algo="$4"
-checksum_nfc="$5"
-checksum_openssl="$6"
+algo_version="$2"
+nfc_version="$3"
+checksum_core="$4"
+checksum_ui="$5"
+checksum_algo="$6"
+checksum_nfc="$7"
+checksum_openssl="$8"
+lottie_version="$9"
 
 cat <<EOF > Package.swift
 // swift-tools-version: 5.6
@@ -28,7 +31,7 @@ let package = Package(
             ]),
     ],
     dependencies: [
-        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.4.0")
+        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "$lottie_version")
     ],
     targets: [
         .target(
@@ -46,17 +49,17 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/$version/Algo.xcframework.zip",
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/$algo_version/Algo.xcframework.zip",
             checksum: "$checksum_algo"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/$version/AuthmeNFCKit.xcframework.zip",
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/nfc/$nfc_version/AuthmeNFCKit.xcframework.zip",
             checksum: "$checksum_nfc"
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/$version/OpenSSL.xcframework.zip",
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/$algo_version/OpenSSL.xcframework.zip",
             checksum: "$checksum_openssl"
         ),
     ]
