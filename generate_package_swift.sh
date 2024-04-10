@@ -18,6 +18,9 @@ import PackageDescription
 
 let package = Package(
     name: "AuthMeSPM",
+    platforms: [
+        .iOS(.v13)
+    ],
     products: [
         .library(
             name: "AuthMeSPM",
