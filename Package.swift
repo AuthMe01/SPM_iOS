@@ -29,18 +29,18 @@ let package = Package(
             dependencies: [.productItem(name: "Lottie", package: "lottie-spm")]),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.0/AuthMe.xcframework.zip",
-            checksum: "ddc347890266fe427b273f39f193235891f88c90dd2b8fecb119022d24005568"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.1/AuthMe.xcframework.zip",
+            checksum: "7eb9f1400d0a9425eb46e15507b8d188c8e86ea43d4cef0900d14a71c1c9e1ff"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.0/AuthMeUI.xcframework.zip",
-            checksum: "c9c0ff5f8193b0e7a102e5be727d15c1c0a2d2124b194ac58fa98c4cae939eec"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.1/AuthMeUI.xcframework.zip",
+            checksum: "981ff8bb772c2ca4944d42ac74727459a573b19645f76edaf23e531a3f7b8f8d"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.4/Algo.xcframework.zip",
-            checksum: "a5389fc139ce839d90765f4b491467670ee69907763989e5a78cd3ed6b460d67"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.6/Algo.xcframework.zip",
+            checksum: "42826fae96d33473279e3c8e9d63c53ee15a1cbb105387b3c7f439b601d8ebca"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -49,8 +49,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.4/OpenSSL.xcframework.zip",
-            checksum: "7cff0325178be141214ba4acd0c7b333649ba0a27b5e8766cc8282988ad30d66"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.6/OpenSSL.xcframework.zip",
+            checksum: "f75d5fa836e0e3aee4b909a25e29f19b8a77cabf98062c48d4d7235de04a43df"
         ),
     ]
 )
