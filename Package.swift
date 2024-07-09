@@ -29,18 +29,18 @@ let package = Package(
             dependencies: [.productItem(name: "Lottie", package: "lottie-spm")]),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.14/AuthMe.xcframework.zip",
-            checksum: "ac1483e87efd88938069923fcdc47d51c84e83ca06f4be19b2a38a792f708706"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.15/AuthMe.xcframework.zip",
+            checksum: "04414de3f14e70bb562355050e0a2a4a28c3debc899f85abeaab93cd6bb186bf"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.14/AuthMeUI.xcframework.zip",
-            checksum: "8dc7283e504294708628fa8fdc1e4a25a3e34e94b0c4bf75fb0ec8aeec85949c"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.15/AuthMeUI.xcframework.zip",
+            checksum: "3ef95a7cf7556da44dccce39bb0c60215cd124e77180f639978e0653d6df54d8"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.9/Algo.xcframework.zip",
-            checksum: "a100aaaa4e63ab63571139ce00ef2dee66bea7707e2c39dc31a652fbf415484e"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.10/Algo.xcframework.zip",
+            checksum: "760628acf9d4b503d839ada49535663d37796cd8139880a898e090387d1c79eb"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -49,8 +49,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.9/OpenSSL.xcframework.zip",
-            checksum: "2eeddb23bedf17284df6a301d4d3be1b9384f1151720c0cdffa26a9a3ef68076"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.10/OpenSSL.xcframework.zip",
+            checksum: "867387932f4e203f9ddbe60298d08098a0ad352457f4e7d53e096c610dff9c00"
         ),
     ]
 )
