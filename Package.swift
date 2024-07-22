@@ -29,13 +29,13 @@ let package = Package(
             dependencies: [.productItem(name: "Lottie", package: "lottie-spm")]),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.17/AuthMe.xcframework.zip",
-            checksum: "4e11dce56abeb9b51aeb6523c81ebc73eb88f59ee4b2462cd25e500f78c229dd"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.18/AuthMe.xcframework.zip",
+            checksum: "ec29cc7454dc8bca106078157cd423d5fdabfd4eee8a8f09b4e7551f6ba8b586"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.17/AuthMeUI.xcframework.zip",
-            checksum: "e1ceda032150a090ed3900376e111bf06102c06347f230745db777ed55ae0829"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.18/AuthMeUI.xcframework.zip",
+            checksum: "1a51707408f64595ef6549df9b9ab85c6aeeb4663bd9a1a83e7f40936850f904"
         ),
         .binaryTarget(
             name: "Algo",
