@@ -29,18 +29,18 @@ let package = Package(
             dependencies: [.productItem(name: "Lottie", package: "lottie-spm")]),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.20/AuthMe.xcframework.zip",
-            checksum: "b40c48502705f00776b081e4358be2f3b904ee7b88d16ee8eabdf4beb69ab590"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.21/AuthMe.xcframework.zip",
+            checksum: "f1f394b7c2cedbe18ef9f6fb0b138da78b09b95f3bb5209648418ba22b98730a"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.20/AuthMeUI.xcframework.zip",
-            checksum: "48a8875aea56f6c3814402495219df3deb6aaca31a83473c82ccc7ca3631af24"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.21/AuthMeUI.xcframework.zip",
+            checksum: "f80929d9ca9dc52f01cee6c47cb7a677423c7b93273cb9b7643c09497d88636e"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.10/Algo.xcframework.zip",
-            checksum: "760628acf9d4b503d839ada49535663d37796cd8139880a898e090387d1c79eb"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.11/Algo.xcframework.zip",
+            checksum: "2b8fe1fd6ddbc19da4959bd8083e32a3db8d7e915e8b5eb34d69e44b622f9a80"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -49,8 +49,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.10/OpenSSL.xcframework.zip",
-            checksum: "867387932f4e203f9ddbe60298d08098a0ad352457f4e7d53e096c610dff9c00"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.11/OpenSSL.xcframework.zip",
+            checksum: "1a7c56f9b5b024923c55f796246288c17b262208aabd18cea115627904d6fe2d"
         ),
     ]
 )
