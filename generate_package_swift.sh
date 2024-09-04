@@ -8,7 +8,6 @@ checksum_ui="$5"
 checksum_algo="$6"
 checksum_nfc="$7"
 checksum_openssl="$8"
-lottie_version="$9"
 
 cat <<EOF > Package.swift
 // swift-tools-version: 5.6
@@ -33,13 +32,7 @@ let package = Package(
                 "OpenSSL"
             ]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "$lottie_version")
-    ],
     targets: [
-        .target(
-            name: "AuthMeSPM",
-            dependencies: [.productItem(name: "Lottie", package: "lottie-spm")]),
         .binaryTarget(
             name: "AuthMe",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/$version/AuthMe.xcframework.zip",
