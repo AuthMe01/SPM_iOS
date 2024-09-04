@@ -21,6 +21,9 @@ let package = Package(
             ]),
     ],
     targets: [
+        .target(
+            name: "AuthMeSPM",
+        ),
         .binaryTarget(
             name: "AuthMe",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.26/AuthMe.xcframework.zip",
