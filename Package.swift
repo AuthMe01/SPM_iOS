@@ -20,22 +20,16 @@ let package = Package(
                 "OpenSSL"
             ]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.4.0")
-    ],
     targets: [
-        .target(
-            name: "AuthMeSPM",
-            dependencies: [.productItem(name: "Lottie", package: "lottie-spm")]),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.24/AuthMe.xcframework.zip",
-            checksum: "39c55015ce60b0bc282cbd42c5403c34a0967f8cda44a21712596780435e8e17"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.26/AuthMe.xcframework.zip",
+            checksum: "cbaab0dd05a4e6e2226d3469008dc9794a88c08db9dc03103105789032a13d1b"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.24/AuthMeUI.xcframework.zip",
-            checksum: "06a067efa9d35b375b5259d5a613c0068f77652c09033070587f5f56130fbe09"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.26/AuthMeUI.xcframework.zip",
+            checksum: "1ad815221c8b0e813b50d0f9419d783b02a026c4d32509e8f52fe9c71acdda80"
         ),
         .binaryTarget(
             name: "Algo",
