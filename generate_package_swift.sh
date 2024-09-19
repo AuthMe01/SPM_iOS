@@ -10,7 +10,7 @@ checksum_nfc="$7"
 checksum_openssl="$8"
 
 cat <<EOF > Package.swift
-// swift-tools-version: 5.10
+// swift-tools-version: 5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -34,7 +34,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "AuthMeSPM",
+            name: "AuthMeSPM"
         ),
         .binaryTarget(
             name: "AuthMe",
@@ -60,7 +60,7 @@ let package = Package(
             name: "OpenSSL",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/$algo_version/OpenSSL.xcframework.zip",
             checksum: "$checksum_openssl"
-        ),
+        )
     ]
 )
 EOF
