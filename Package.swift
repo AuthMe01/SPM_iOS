@@ -1,4 +1,4 @@
-// swift-tools-version: 5.10
+// swift-tools-version: 5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -22,17 +22,17 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "AuthMeSPM",
+            name: "AuthMeSPM"
         ),
         .binaryTarget(
             name: "AuthMe",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.29/AuthMe.xcframework.zip",
-            checksum: "ad482aa2dcf827447dfb372abedbe21d12fe4a3e6849a07e682295f7b362131f"
+            checksum: "707d154d811dda5a0ac114d507c12388ca1ec55f88e3e0aa52293338f1d19e05"
         ),
         .binaryTarget(
             name: "AuthMeUI",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.29/AuthMeUI.xcframework.zip",
-            checksum: "b8724d6b635bf07f308a47b0288eae17a7da26d0199efbb30dbaae5de0410e86"
+            checksum: "71a876527dbe801c4462f79a29457fe3e556f733ea8c6261ee8d6f876446df82"
         ),
         .binaryTarget(
             name: "Algo",
@@ -48,6 +48,6 @@ let package = Package(
             name: "OpenSSL",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.13/OpenSSL.xcframework.zip",
             checksum: "2ab6538d57d5dacfa122117f3356fac40944124f639dab751a23d4ec790a05c3"
-        ),
+        )
     ]
 )
