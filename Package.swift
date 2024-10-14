@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.31/AuthMe.xcframework.zip",
-            checksum: "c563e68c896e47408c575224abbc02e8bc4c527c7060ccb6761fe2aaf30a4102"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.32/AuthMe.xcframework.zip",
+            checksum: "f9140797fd7613102ebc901da8ee378c2c388c2d1ddd6847b2c6cc2c0f2357cb"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.31/AuthMeUI.xcframework.zip",
-            checksum: "7f395c1d050f11cf9b5b51838853a9d69430db9180d3711be1aa39417d5e0e9e"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.32/AuthMeUI.xcframework.zip",
+            checksum: "4652f5aef2fe00bc1e6c6cd7de1effc9b9799e1db0008fbdbfa627b9ccfb8d2e"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.14/Algo.xcframework.zip",
-            checksum: "d2792e2f837f3521e8c78c17d780f6ebaf4e11faaed15d6c694f70906fe66b01"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.15/Algo.xcframework.zip",
+            checksum: "18b21b3630dacc4fabe5e7cd185f597c2d7f8ee56b438dcc26f545c80cb2cddf"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.14/OpenSSL.xcframework.zip",
-            checksum: "5a3600c489cd5e65f7ed921b31db8889b1ad634f7358316c53ec005ea0c1231d"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.15/OpenSSL.xcframework.zip",
+            checksum: "31497f759ba6b75330bc234a00fdf2083073967368a2c958f8b5b987dd51011a"
         )
     ]
 )
