@@ -25,13 +25,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/0.2.0/AuthMe.xcframework.zip",
-            checksum: "0140d26016467d34bf72ee36fec6304794db79b2bfe7edbe67eca9a39ff3a928"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/0.2.1/AuthMe.xcframework.zip",
+            checksum: "7b2c1c9af2f7efdb5c0d78831bf4299505012bf0d25912667b75af6efd58bdc9"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/0.2.0/AuthMeUI.xcframework.zip",
-            checksum: "e5f5644e2f71c1e366c681c4c829987209d3570ea355043f85a8c019e9da7785"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/0.2.1/AuthMeUI.xcframework.zip",
+            checksum: "e0c3fb53da3a58d8e22fc71e0e302b8fc405417d127c8c8cde2a7415ccf786a6"
         ),
         .binaryTarget(
             name: "Algo",
@@ -40,8 +40,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/nfc/0.1.2/AuthmeNFCKit.xcframework.zip",
-            checksum: "bc67e76bafda146fb44101b0f285a7730722ba63c34322c8d2bbbda8aabad7e2"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/nfc/0.1.4/AuthmeNFCKit.xcframework.zip",
+            checksum: "fc00eee84b8cf2c91cd3efcb0489dd44d771be4322ba78ca23c2148fecf1c48b"
         )
     ]
 )
