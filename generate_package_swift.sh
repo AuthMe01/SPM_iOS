@@ -28,7 +28,8 @@ let package = Package(
                 "AuthMe",
                 "AuthMeUI",
                 "Algo",
-                "AuthmeNFCKit"
+                "AuthmeNFCKit",
+                "OpenSSL"
             ]),
     ],
     targets: [
@@ -54,6 +55,11 @@ let package = Package(
             name: "AuthmeNFCKit",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/nfc/$nfc_version/AuthmeNFCKit.xcframework.zip",
             checksum: "$checksum_nfc"
+        ),
+        .binaryTarget(
+            name: "OpenSSL",
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/$algo_version/OpenSSL.xcframework.zip",
+            checksum: "$checksum_openssl"
         )
     ]
 )
