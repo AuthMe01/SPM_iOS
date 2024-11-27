@@ -16,7 +16,8 @@ let package = Package(
                 "AuthMe",
                 "AuthMeUI",
                 "Algo",
-                "AuthmeNFCKit"
+                "AuthmeNFCKit",
+                "OpenSSL"
             ]),
     ],
     targets: [
@@ -25,13 +26,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/0.2.4/AuthMe.xcframework.zip",
-            checksum: "31182a62231f81c7ce0837f2ba6167726f29a555066ef1a23bc32525fc793b62"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.38/AuthMe.xcframework.zip",
+            checksum: "a2a07506b26bd51d70af745622c4309d4c4d04f88fbeab827f9de4ce9edcce59"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/0.2.4/AuthMeUI.xcframework.zip",
-            checksum: "0aca3414e93081b13f7d0c8a4bd42ce4ca9025f8f28dc97ec664433cb064b329"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.38/AuthMeUI.xcframework.zip",
+            checksum: "e897155070cd5e97d9eecdbf6fa3bae7172c4c3fea06f7b7565dcfbd4a1b5b19"
         ),
         .binaryTarget(
             name: "Algo",
@@ -40,8 +41,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/nfc/0.1.8/AuthmeNFCKit.xcframework.zip",
-            checksum: "15d6f931d3887adc44bfa3444749b360bb959bd8060b323d54f472b24e794773"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/nfc/1.0.18/AuthmeNFCKit.xcframework.zip",
+            checksum: "fce2f614416a9ade59a1936bad6daae964c2230bbb1ca1cdec8b7bff0f5042a6"
+        ),
+        .binaryTarget(
+            name: "OpenSSL",
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.19/OpenSSL.xcframework.zip",
+            checksum: "4.4.0"
         )
     ]
 )
