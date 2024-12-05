@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.42/AuthMe.xcframework.zip",
-            checksum: "80394b60172bbcf0812e3e8d31dbec18c14d6bca017b68f6abf38585b7396c66"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.43/AuthMe.xcframework.zip",
+            checksum: "5699d8b0318547d7fcecce9348d3011290423442b0e7539d6215969269e68dc2"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.42/AuthMeUI.xcframework.zip",
-            checksum: "799eeb37a3c72b88ba4cffcd3f42d45c0d56835a69667919a25d383341b15927"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.43/AuthMeUI.xcframework.zip",
+            checksum: "acad6f78da2a8f1a6d784bb0ec38918e190d0501a9b02500407755508ec10427"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.19/Algo.xcframework.zip",
-            checksum: "8f84986b6f9ba74bfdad12261efca1a9c4628fbe27a27ded5b13d1c898d9db21"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.20/Algo.xcframework.zip",
+            checksum: "3131e53e56ab432f9eaa928c95c40e90171d5dfa17b4e6782bddfab619dad03d"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.19/OpenSSL.xcframework.zip",
-            checksum: "e7c42da6a2e1e57fc0112c8676e6f351e45cf0a017fd85679b045725f4ffb137"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.20/OpenSSL.xcframework.zip",
+            checksum: "0ebed823e4fcad051c7ab37b06f73c73a8f69c86606b8e469954fcbd26d82663"
         )
     ]
 )
