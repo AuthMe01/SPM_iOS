@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.0/AuthMe.xcframework.zip",
-            checksum: "12fd0cb982f52daf1c808d4599b2d3b7a4439c53d537a09e7bfe772cbffda97e"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/0.0.2/AuthMe.xcframework.zip",
+            checksum: "fe38a981e6af4b05f206ac41a792b3b6305f2fbb433a448b1e50f9592f869266"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.0/AuthMeUI.xcframework.zip",
-            checksum: "9f231000013f29fb265c626ea0bee3f7bf0c4062fbb1bbd103f258096bf66b5e"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/0.0.2/AuthMeUI.xcframework.zip",
+            checksum: "7ce25130b95a85765e40042b5ac39ead1d402ddf261fd4b566d2701c5c6c8d85"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.0/Algo.xcframework.zip",
-            checksum: "eeaf22d28fec3e709472240f60755b9815c9805a13c2cf6e1da11eb3c5215cf3"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/0.0.1/Algo.xcframework.zip",
+            checksum: "aaad37baeedcdb4f910b1187b0b4b1aa5e83e33cda2207d9032aa24138a2f521"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.0/OpenSSL.xcframework.zip",
-            checksum: "812e72e5a399e859118377b570359c0fdc744eb9bfff81c69b95c4244e436641"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/0.0.1/OpenSSL.xcframework.zip",
+            checksum: "c6660d326720208496be9450e458a4ac52eb0f91594bfebe76276f6c00074c7e"
         )
     ]
 )
