@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.13/AuthMe.xcframework.zip",
-            checksum: "2097195679a18fddd3b4cbbd0ffcba1c68969893f74cd311dfbd3ee0b0663182"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.48/AuthMe.xcframework.zip",
+            checksum: "633067a120fb9488930f0b568dfaac1cbe4ff88d97e6787b1138f780d6c6301d"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.13/AuthMeUI.xcframework.zip",
-            checksum: "eda130dba9baefcaf4bf77e992103645bd2bd5d4244caa2cc0e4249588161c01"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.48/AuthMeUI.xcframework.zip",
+            checksum: "cf834ca4210bebe48942a7f608b640ab052b426fae6e5d6af37251a829bbc2ad"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.2/Algo.xcframework.zip",
-            checksum: "05b95f81a366170f8b64919b9d69392605fde27f89d1ac1b64c51e612730e93a"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.21/Algo.xcframework.zip",
+            checksum: "250c3cd00f79267716d39b0ad1506f04c7fc545d56775a9d91d432b8e6aaa30f"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.2/OpenSSL.xcframework.zip",
-            checksum: "1df099ecb9426d39297c05570366eed8badce908e5dda16e3b0049b601b9dbff"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.21/OpenSSL.xcframework.zip",
+            checksum: "59c8f1f544c904b9c2a7225265dcc06e5893e79bcc0163c35a18d20b429d9da2"
         )
     ]
 )
