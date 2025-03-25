@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.49/AuthMe.xcframework.zip",
-            checksum: "65d727c8715a70d348d9317b6a45e4106930685039461887c947ff37c157667f"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.14/AuthMe.xcframework.zip",
+            checksum: "e042a8a465830a8e313ff1f34f60430b7f2941d207add3512e4f19c62dd27777"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.49/AuthMeUI.xcframework.zip",
-            checksum: "1a7b113d8a2b1cc3cf2c09cd0c45d2e0387f295c5544aad814ecf2d258dcb721"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.14/AuthMeUI.xcframework.zip",
+            checksum: "8ba908278009b09bb305d45ea3fc68629aa6c46edcaa501d3b36085c093747d1"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.21/Algo.xcframework.zip",
-            checksum: "250c3cd00f79267716d39b0ad1506f04c7fc545d56775a9d91d432b8e6aaa30f"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.2/Algo.xcframework.zip",
+            checksum: "05b95f81a366170f8b64919b9d69392605fde27f89d1ac1b64c51e612730e93a"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.21/OpenSSL.xcframework.zip",
-            checksum: "59c8f1f544c904b9c2a7225265dcc06e5893e79bcc0163c35a18d20b429d9da2"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.2/OpenSSL.xcframework.zip",
+            checksum: "1df099ecb9426d39297c05570366eed8badce908e5dda16e3b0049b601b9dbff"
         )
     ]
 )
