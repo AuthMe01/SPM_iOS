@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.15/AuthMe.xcframework.zip",
-            checksum: "5c863638a3408ec00061564a5b360d575b4f83c1ee5c940122d21691d6bd7327"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.16/AuthMe.xcframework.zip",
+            checksum: "f311d328dbdc4735c6cdb43f5df7f90d11441186cd9dacde442bbe746161c9a0"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.15/AuthMeUI.xcframework.zip",
-            checksum: "17185d24edb2447f22b8f1d2753a0df1c28dec73a844b1c9df6b90bcbba8cb15"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.16/AuthMeUI.xcframework.zip",
+            checksum: "7011dbda22e32175b26ba4c1cf6b7953c75a7ce9c888d478a90407af72b6fbce"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.2/Algo.xcframework.zip",
-            checksum: "05b95f81a366170f8b64919b9d69392605fde27f89d1ac1b64c51e612730e93a"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.4/Algo.xcframework.zip",
+            checksum: "2ef6e859ee895469add2c535c2c912295d9c2881e9e277af810bb905bfb0ae7f"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.2/OpenSSL.xcframework.zip",
-            checksum: "1df099ecb9426d39297c05570366eed8badce908e5dda16e3b0049b601b9dbff"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.4/OpenSSL.xcframework.zip",
+            checksum: "efd5a562c7e78055e09173ba7f91f21a2f96638ec348f6df069438c7da094afb"
         )
     ]
 )
