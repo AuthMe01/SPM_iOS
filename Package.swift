@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.17/AuthMe.xcframework.zip",
-            checksum: "035f8db44e60feaf5325ba63f45c3d2936a5fe23270864558d21684812920c43"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.18/AuthMe.xcframework.zip",
+            checksum: "1ddb4f1b0f31ba0e126b29b27665260111746f5a5b443fde2f5e6812497e6116"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.17/AuthMeUI.xcframework.zip",
-            checksum: "9cdd9e3fefec12f3201831f5ca4f3f58dadefad4e429ee29d330acc24d02c423"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.18/AuthMeUI.xcframework.zip",
+            checksum: "1447c3515c7032046f84f90300755e3b622d2f7d33a2cedf001f06eddeaae17e"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.4/Algo.xcframework.zip",
-            checksum: "2ef6e859ee895469add2c535c2c912295d9c2881e9e277af810bb905bfb0ae7f"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.5/Algo.xcframework.zip",
+            checksum: "7c6309c0b6aa713b69544e79d6217b9418be0497e5ce686086c01ca122882031"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.4/OpenSSL.xcframework.zip",
-            checksum: "efd5a562c7e78055e09173ba7f91f21a2f96638ec348f6df069438c7da094afb"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.5/OpenSSL.xcframework.zip",
+            checksum: "479a64e7291f6f6913b9b2dfaf0dc99c81dbf48b38697cc67c07878181d282d6"
         )
     ]
 )
