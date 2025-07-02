@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.35/AuthMe.xcframework.zip",
-            checksum: "265f477c9fff2ede476c38d6e5c220bcb078fd113d542451ddbe284fbd3c448b"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.50/AuthMe.xcframework.zip",
+            checksum: "cccf97fab37d3c3a77a9cf6a1fde270989649c44441b93315253fd4dcfbce2c3"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.35/AuthMeUI.xcframework.zip",
-            checksum: "6a7382633aaefaf12dee54dded671831517ee145f328cc82caae9773d2cc2f98"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.50/AuthMeUI.xcframework.zip",
+            checksum: "5d1a1e9bc52cea4933e23c6b183b8b0a4f48b7dbbc0cb453b8c3ae8bb370327c"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.5/Algo.xcframework.zip",
-            checksum: "7c6309c0b6aa713b69544e79d6217b9418be0497e5ce686086c01ca122882031"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.22/Algo.xcframework.zip",
+            checksum: "aea51bf91a7ce6db010da8ec90eaa436e28fd3db97ff32f5ba65e4045370bde0"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.5/OpenSSL.xcframework.zip",
-            checksum: "479a64e7291f6f6913b9b2dfaf0dc99c81dbf48b38697cc67c07878181d282d6"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.22/OpenSSL.xcframework.zip",
+            checksum: "81de15fc83b2a750dc9c742b2d8def4f6feceb1acfe63984e06b0129bc0fe1cd"
         )
     ]
 )
