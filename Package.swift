@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.50/AuthMe.xcframework.zip",
-            checksum: "cccf97fab37d3c3a77a9cf6a1fde270989649c44441b93315253fd4dcfbce2c3"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.36/AuthMe.xcframework.zip",
+            checksum: "200d03bbc02667f9df87de295fb10fbb0674462085cb8d38c88ff72e220984c0"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.50/AuthMeUI.xcframework.zip",
-            checksum: "5d1a1e9bc52cea4933e23c6b183b8b0a4f48b7dbbc0cb453b8c3ae8bb370327c"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.36/AuthMeUI.xcframework.zip",
+            checksum: "b57a0ccef3ca3206a702bb664ef3914ecb95c92e25770b0d5e210e080c967dbe"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.22/Algo.xcframework.zip",
-            checksum: "aea51bf91a7ce6db010da8ec90eaa436e28fd3db97ff32f5ba65e4045370bde0"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.8/Algo.xcframework.zip",
+            checksum: "b03a4160d9307862004c8651044fb4a7e0897f17dcd2a507f0ed79c89e2191f4"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.22/OpenSSL.xcframework.zip",
-            checksum: "81de15fc83b2a750dc9c742b2d8def4f6feceb1acfe63984e06b0129bc0fe1cd"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.8/OpenSSL.xcframework.zip",
+            checksum: "99e4b3db1988e82c20b32e613d8a45d6604a0519b8abf0a3560fdd571ab3af34"
         )
     ]
 )
