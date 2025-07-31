@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.36/AuthMe.xcframework.zip",
-            checksum: "200d03bbc02667f9df87de295fb10fbb0674462085cb8d38c88ff72e220984c0"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.37/AuthMe.xcframework.zip",
+            checksum: "947a3997db4ebb01fb5350c93c6cac82dd57bdebc333ff9903170bacb90a1792"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.36/AuthMeUI.xcframework.zip",
-            checksum: "b57a0ccef3ca3206a702bb664ef3914ecb95c92e25770b0d5e210e080c967dbe"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.37/AuthMeUI.xcframework.zip",
+            checksum: "abca4a4926743004d0fc12756d78e747334e8c81b32d651c2843e1e7ac5a21fb"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.8/Algo.xcframework.zip",
-            checksum: "b03a4160d9307862004c8651044fb4a7e0897f17dcd2a507f0ed79c89e2191f4"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.9/Algo.xcframework.zip",
+            checksum: "8a6860956f4c4fb96d8fc624b4b74868d1de36c54701c8ef8d09f03b2c9e5c4a"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.8/OpenSSL.xcframework.zip",
-            checksum: "99e4b3db1988e82c20b32e613d8a45d6604a0519b8abf0a3560fdd571ab3af34"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.9/OpenSSL.xcframework.zip",
+            checksum: "aa48ff9157c5dbd78fc1cd7bc1f6af04dc6c324eca9ac6569d853a3e587fb175"
         )
     ]
 )
