@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.51/AuthMe.xcframework.zip",
-            checksum: "1f71828a36da8a816c23c2bfdaa4f21a29c47cc2ef27004d13b24ddc322dfa55"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.39/AuthMe.xcframework.zip",
+            checksum: "194bbb3e7f3dcb0bffde881764e79a4808617b7dea9256542d30f9b2ce94d03f"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.7.51/AuthMeUI.xcframework.zip",
-            checksum: "8e400d838bdf9af72c83b45fb4b190aa43994bea67c462eb51a8ea27a31e5bd1"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.39/AuthMeUI.xcframework.zip",
+            checksum: "89950d4e5af100f9c4ee8a789f72cc11a557796ee373136843517f4fc5840881"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.22/Algo.xcframework.zip",
-            checksum: "aea51bf91a7ce6db010da8ec90eaa436e28fd3db97ff32f5ba65e4045370bde0"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.11/Algo.xcframework.zip",
+            checksum: "cf2f839411eb844f3f86021d8b55b917da2b80b77b0620364d3d9a8280c13167"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/8.7.22/OpenSSL.xcframework.zip",
-            checksum: "81de15fc83b2a750dc9c742b2d8def4f6feceb1acfe63984e06b0129bc0fe1cd"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.11/OpenSSL.xcframework.zip",
+            checksum: "089bbe3f344dfca414c8a88d3ad81867b2f3361da2fee9990aba52537e39847f"
         )
     ]
 )
