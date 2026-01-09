@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.48/AuthMe.xcframework.zip",
-            checksum: "5a2d41e48348ab0ab24d5ce7880e5059f73e60c1f1e256e5ff69458dedaa4dfb"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.49/AuthMe.xcframework.zip",
+            checksum: "0969b94edc340909dc254a9b33f1d31a2056e0dfe5fd096526cf83aa90f68418"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.48/AuthMeUI.xcframework.zip",
-            checksum: "6ebfcc019913eb8b2f5d8a1c88a58e5ce0ac17d673d09767a8a37826ffbabea1"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.49/AuthMeUI.xcframework.zip",
+            checksum: "afad73f097f457ebd480952ce9fecc37877faa02c7d713f3f4f029ed1f85b65b"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.11/Algo.xcframework.zip",
-            checksum: "cf2f839411eb844f3f86021d8b55b917da2b80b77b0620364d3d9a8280c13167"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.13/Algo.xcframework.zip",
+            checksum: "26d638bb683b8402cd0fe4860c9ae6b96a25760ff1ccf62f8cd3fcb59039e95b"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.11/OpenSSL.xcframework.zip",
-            checksum: "089bbe3f344dfca414c8a88d3ad81867b2f3361da2fee9990aba52537e39847f"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.13/OpenSSL.xcframework.zip",
+            checksum: "d9001529a81294a14dfc8ef4c365b1b16d9064cb1981689a7754b15ac4070892"
         )
     ]
 )
