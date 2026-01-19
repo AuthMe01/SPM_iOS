@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.50/AuthMe.xcframework.zip",
-            checksum: "0e3d68410c31945f3802676f6e6b8fa67e44f557d4c9862006c4a62ae2f176b0"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.51/AuthMe.xcframework.zip",
+            checksum: "5fb17dbf27bfd9e1d8baa784b4caeba70bcb0666188f07f70594ef8be35f8fbb"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.50/AuthMeUI.xcframework.zip",
-            checksum: "46b180800fca3c107abc2c36f825c43bbb6103ca83a28a5653ab70aba0431fc1"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.8.51/AuthMeUI.xcframework.zip",
+            checksum: "adc3308fd9d796be78cdcefecb87e851cb06ea5d74f474db0b6573f7d70a5c52"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.13/Algo.xcframework.zip",
-            checksum: "26d638bb683b8402cd0fe4860c9ae6b96a25760ff1ccf62f8cd3fcb59039e95b"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.14/Algo.xcframework.zip",
+            checksum: "73a5383614f765770b78339c17c5570b177b5e611a31c7339f1ddc3d433d0e9b"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.13/OpenSSL.xcframework.zip",
-            checksum: "d9001529a81294a14dfc8ef4c365b1b16d9064cb1981689a7754b15ac4070892"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.14/OpenSSL.xcframework.zip",
+            checksum: "60a6df8d3922f1ac641a72d052ad043976e28de52ba4de8793867559feb6af5d"
         )
     ]
 )
