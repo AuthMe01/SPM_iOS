@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.4/AuthMe.xcframework.zip",
-            checksum: "fadd43d00579408851abea688ac91e4a250e0d0d348d27cfa66d1651234674e6"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.5/AuthMe.xcframework.zip",
+            checksum: "16e839221dce46dc31289050996bebd5c70688136fc260e808b00dea37bbb6ec"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.4/AuthMeUI.xcframework.zip",
-            checksum: "d75447f885c3b54cd451b9649c5197f4d95b0a37ab2e2a2befe3d321ec7d91a7"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.5/AuthMeUI.xcframework.zip",
+            checksum: "f3a4b1033feb503c73e52baf121360635205673001c383ea288d17b580ee24fc"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.23/Algo.xcframework.zip",
-            checksum: "ffed40c75422a3e5437e400e2e019f62af4da9df011f3a147cadbb09cf0f4d74"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.24/Algo.xcframework.zip",
+            checksum: "5e1c88e4f709bf65f529f378fbe1cb92fa8b3fcefe6f277f82ac156bc54a3ba6"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.23/OpenSSL.xcframework.zip",
-            checksum: "ae1f52dce955ca3ab4a6013c074c2e76713152b386fe742615f1a9128ebf890e"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.24/OpenSSL.xcframework.zip",
+            checksum: "54f3d2d1ceace48c8b85bc105757a3b9d86e74a9405fb73dad3cbf70b88e1363"
         )
     ]
 )
