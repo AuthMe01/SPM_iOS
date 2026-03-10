@@ -26,28 +26,28 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.9/AuthMe.xcframework.zip",
-            checksum: "6cdac3cbc8a3052876bda31680728cb400912d478685e045c84bd2a40936ab2d"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.10/AuthMe.xcframework.zip",
+            checksum: "087c20d55011e6f13068f905ce1d779daefe9e2fa58a124d55f6b20440992b34"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.9/AuthMeUI.xcframework.zip",
-            checksum: "f8c5eae528a970673c3e01888ef14ec7c97030ba95d42e106ffff65a3c67eb0d"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.10/AuthMeUI.xcframework.zip",
+            checksum: "c0e4560457c1a1b67baa08f3d38d822a2b4d14c5e94be5cc9559e3f8956ec0e3"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.26/Algo.xcframework.zip",
-            checksum: "d9aac4bafdaf7e21c6571d1bdcd6e5f4d3c13cc723e885a75cfcea1020f9177c"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.27/Algo.xcframework.zip",
+            checksum: "03b8a27e23b1ebc2058a61f52f3391523e33fc838af011e01561ebc02de85996"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/nfc/2.0.7/AuthmeNFCKit.xcframework.zip",
-            checksum: "88be1ba51f7bdbbf8d9d99b5695da7e21a9e7a21ab0b56853a56c10bd8888f16"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/nfc/2.0.8/AuthmeNFCKit.xcframework.zip",
+            checksum: "716adc0eed15d15cb0f2704f35ec7932d1a59de68ee94fa6cce54e7d30a65e96"
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.26/OpenSSL.xcframework.zip",
-            checksum: "8b78f0bc602cb981fcc34bfb5d9702513435ad8b1b548748aac9afbf3c59b0f0"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.27/OpenSSL.xcframework.zip",
+            checksum: "33c02b0776bc11189718175e8a02374ac353fed8b6c7af52567d8fef215340e8"
         )
     ]
 )
