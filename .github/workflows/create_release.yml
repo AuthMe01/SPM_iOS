@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          token: '${{ secrets.APP_CI_PAT }}'
+          token: '${{ secrets.AI_CI_PAT }}'
       - name: Extract Tag Version
         id: extract_tag
         run: echo "::set-output name=version::${GITHUB_REF#refs/tags/}"  
@@ -30,7 +30,7 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.APP_CI_PAT }}
+          GITHUB_TOKEN: ${{ secrets.AI_CI_PAT }}
         with:
           tag_name: ${{ steps.extract_tag.outputs.version }}
           release_name: Release ${{ steps.extract_tag.outputs.version }}
