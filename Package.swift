@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.14/AuthMe.xcframework.zip",
-            checksum: "c651731860d96daccc0e675134460454ff49b71b5c20d077980fd9741db261b7"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.17/AuthMe.xcframework.zip",
+            checksum: "ca61a8981d5c3e85b068f13a7f406c619a31b990c4f7e0eb8552627ccb404397"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.14/AuthMeUI.xcframework.zip",
-            checksum: "da773b6fdb87271b5d96cb8cca7abe3e21991552d299ff3576bde453722bb924"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.17/AuthMeUI.xcframework.zip",
+            checksum: "d45dcc3a7dc90639112f4a9840bc858cc5f05520ac65269d85b7572c480e85a0"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.30/Algo.xcframework.zip",
-            checksum: "cba6fa835b7fd995a4bbb5f5b9b2580a7c97efb650f60d991d8fe48f19daea62"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.31/Algo.xcframework.zip",
+            checksum: "9c1d899f2903c15c812613054204392e3bf1a23d8688527963901a6c58fa9f27"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.30/OpenSSL.xcframework.zip",
-            checksum: "7014e2d33985cc67eabe1044abefc568b4f4a4c77edc6ac452da09fbc03faed8"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.31/OpenSSL.xcframework.zip",
+            checksum: "0716815dda1166f4d52c37cbd8a8a0bf43b18ee107abb18a4f19ce5d616869e5"
         )
     ]
 )
