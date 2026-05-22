@@ -32,7 +32,7 @@ let package = Package(
         .binaryTarget(
             name: "AuthMeUI",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.17/AuthMeUI.xcframework.zip",
-            checksum: "d45dcc3a7dc90639112f4a9840bc858cc5f05520ac65269d85b7572c480e85a0"
+            checksum: "d38541623e62a88bdfa77c37369ed055e466f3f1981290ba6c960330fee30758"
         ),
         .binaryTarget(
             name: "Algo",
@@ -42,7 +42,7 @@ let package = Package(
         .binaryTarget(
             name: "AuthmeNFCKit",
             url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/nfc/2.0.10/AuthmeNFCKit.xcframework.zip",
-            checksum: "b2bf9f7fc731ce7dca38d7247fb608c1829997ba88dc9b1606c07e9fe51c59e7"
+            checksum: "1e98264f1ca1875890503c9bee30a1b434fb885a4aa1fd393492c1c9003ccbc5"
         ),
         .binaryTarget(
             name: "OpenSSL",
