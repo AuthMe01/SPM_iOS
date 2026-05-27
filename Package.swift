@@ -26,18 +26,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthMe",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.18/AuthMe.xcframework.zip",
-            checksum: "fab97bc712b6ab89eb3d697b7ff6bfee8a2b49daa554f5ff6ec97bbaff211a8e"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.19/AuthMe.xcframework.zip",
+            checksum: "07960b8a93908e02b288ef89dbee0ba3c3689cd9068cfb37b8a2f9daa678ce5c"
         ),
         .binaryTarget(
             name: "AuthMeUI",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.18/AuthMeUI.xcframework.zip",
-            checksum: "c2c867534a142b848282fc0b6267ac20ef21faa98a106734346f4337248a0539"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/core/2.9.19/AuthMeUI.xcframework.zip",
+            checksum: "8fcb5c536fbf6693f2d4a8e4bff17c2a6fc91c4ecdcf17fd22f037c4cf29633f"
         ),
         .binaryTarget(
             name: "Algo",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.31/Algo.xcframework.zip",
-            checksum: "9c1d899f2903c15c812613054204392e3bf1a23d8688527963901a6c58fa9f27"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.32/Algo.xcframework.zip",
+            checksum: "ba655036513026d8808993472304f705501eaa6a06942f1c9c4c318a9b2ebe51"
         ),
         .binaryTarget(
             name: "AuthmeNFCKit",
@@ -46,8 +46,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "OpenSSL",
-            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.31/OpenSSL.xcframework.zip",
-            checksum: "0716815dda1166f4d52c37cbd8a8a0bf43b18ee107abb18a4f19ce5d616869e5"
+            url: "https://storage.googleapis.com/authme-mobile.appspot.com/iOS/algo/9.0.32/OpenSSL.xcframework.zip",
+            checksum: "debaf649db38e7c5c2d2f5ef72ab5fbb327fa399e6691d11a5dcec886b3ce38f"
         )
     ]
 )
